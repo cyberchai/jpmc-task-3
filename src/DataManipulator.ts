@@ -24,7 +24,7 @@ export class DataManipulator {
         // top_ask_price: el.top_ask && el.top_ask.price || 0,
         // timestamp: el.timestamp,
         price_abc: priceABC,
-        price_abc: priceDEF,
+        price_def: priceDEF,
         ratio,
         timestamp: serverResponds[0].timestamp > serverResponds[1].timestamp ? serverResponds[0].timestamp : serverResponds[1].timestamp,
         upper_bound: upperBound,
